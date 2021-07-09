@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    @font-face {
+        font-family: 'Century Gothic';
+        src: url('/fonts/Century Gothic/GOTHIC.TTF') format('TTF');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Century Gothic';
+        src: url('/fonts/Century Gothic/GOTHICB.TTF') format('TTF');
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    @font-face {
+        font-family: 'Century Gothic';
+        src: url('/fonts/Century Gothic/GOTHICBI.TTF') format('TTF');
+        font-style: oblique;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Century Gothic';
+        src: url('/fonts/Century Gothic/GOTHICI.TTF') format('TTF');
+        font-style: italic;
+        font-weight: normal;
+    }
+}
+
+@import "glider.css";
+@import "carousel.css";
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
