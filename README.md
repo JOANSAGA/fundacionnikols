@@ -15,17 +15,10 @@
 >     -   GitHub: **[joansaga](https://github.com/JOANSAGA)**
 >     -   Web: **[www.joansaga.dev](https://joansaga.dev/)**
 >
-> -   Audrey Solorzano Zambrano
->
->     -   GitHub: **[audreysol20](https://github.com/audreysol20)**
->
 > -   Nehemias De La Ese Romero
 >
 >     -   GitHub: **[Nando1223](https://github.com/Nando1223)**
 >
-> -   Leonel Bermúdez Reyes
->
->     -   GitHub: **[](https://github.com/)**
 
 > ## **Instalación en Entorno de desarrollo**
 >
