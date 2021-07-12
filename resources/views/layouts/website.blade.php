@@ -12,12 +12,12 @@
 
 <body class="flex flex-col h-screen antialiased">
     <header class="select-none bg-primary">
-        <div class="container flex items-center justify-center py-3 mx-auto">
+        <div class="container flex flex-wrap items-center justify-center w-full py-2 mx-auto md:w-4/5">
             <div class="w-56 mx-auto">
-                <x-application-logo />
+                <x-application-logo-oscuro />
             </div>
             <div class="mx-auto">
-                <span class="text-2xl text-white">VOCACIÓN, DEDICACIÓN Y SERVICIO</span>
+                <span class="text-white md:text-2xl sm:text-xl">VOCACIÓN, DEDICACIÓN Y SERVICIO</span>
             </div>
         </div>
     </header>

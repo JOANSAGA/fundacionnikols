@@ -2,7 +2,7 @@
     <div class="flex justify-between pb-3">
         <div class="flex justify-between text-sm">
             <div class="inline-block">
-                <x-application-logo />
+                <x-application-logo-oscuro />
             </div>
         </div>
         <div class="flex flex-wrap justify-between w-full px-6 text-sm">

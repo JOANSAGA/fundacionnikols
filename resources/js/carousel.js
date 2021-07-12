@@ -1,19 +1,18 @@
 //carousel auto play, pause hover
 
-var slider = new Glider(document.querySelector('.carousel'), {
+var slider = new Glider(document.querySelector('.glider'), {
     slidesToScroll: 1,
     slidesToShow: 1,
     dots: '.dots',
     arrows: {
-        prev: '.carousel-prev',
-        next: '.carousel-next'
+        prev: '.glider-prev',
+        next: '.glider-next'
     },
     rewind: true,
-    scrollLock: true,
-    skipTrack: true
-})
+    scrollLock: true
+});
 
-slideAutoPaly(slider, '.carousel');
+//slideAutoPaly(slider, '.glider');
 
 function slideAutoPaly(glider, selector, delay = 3000, repeat = true) {
     let autoplay = null;
