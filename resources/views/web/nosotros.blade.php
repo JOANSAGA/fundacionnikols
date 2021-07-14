@@ -17,12 +17,16 @@
                 </p>
             </div>
         </div>
-        <div class="pt-6">
-            <div class="flex justify-between pt-6">
-                <div class="w-1/2 px-6">
-                    <x-application-logo-claro />
+    </section>
+    <section class="w-full bg-secondary">
+        <div class="flex justify-between w-4/5 mx-auto mt-6 text-primary">
+            <div class="w-1/2 py-3">
+                <div>
+                    <img src="img/mision.jpeg" class="border-2 border-primary rounded-3xl">
                 </div>
-                <div class="w-1/2 px-6">
+            </div>
+            <div class="flex flex-row items-center w-1/2 px-6">
+                <div>
                     <div class="flex justify-center text-xl">
                         <span class="font-bold">
                             MISIÓN
@@ -36,11 +40,7 @@
                             y comprometida con la sociedad ecuatoriana.
                         </p>
                     </div>
-                </div>
-            </div>
-            <div class="flex justify-between pt-6">
-                <div class="w-1/2 px-6">
-                    <div class="flex justify-center text-xl">
+                    <div class="flex justify-center pt-6 text-xl">
                         <span class="font-bold">
                             VISIÓN
                         </span>
@@ -53,6 +53,17 @@
                             situación de vulnerabilidad.
                         </p>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        
+        <div class="pt-6">
+
+            <div class="flex justify-between pt-6">
+                <div class="w-1/2 px-6">
+
                 </div>
                 <div class="w-1/2 px-6">
                     <x-application-logo-claro />
@@ -95,6 +106,7 @@
                     </div>
                 </div>
                 <div class="w-1/2 px-6">
+
                     <x-application-logo-claro />
                 </div>
             </div>

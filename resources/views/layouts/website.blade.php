@@ -11,7 +11,7 @@
 </head>
 
 <body class="flex flex-col h-screen antialiased">
-    <header class="select-none bg-primary">
+    <header class="hidden select-none bg-primary">
         <div class="container flex flex-wrap items-center justify-center w-full py-2 mx-auto md:w-4/5">
             <div class="w-56 mx-auto">
                 <x-application-logo-oscuro />

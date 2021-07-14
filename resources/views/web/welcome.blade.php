@@ -1,8 +1,31 @@
 <x-website-layout>
+    <section class="bg-center bg-no-repeat bg-cover aspect-w-16 aspect-h-8" style="background-image: url('img/4.jpg')">
+        <div class="flex justify-end">
+            <div class="flex items-center w-1/2 px-10">
+                <div class="w-full px-10 py-5 mt-auto text-center opacity-100 rounded-t-2xl bg-primary">
+                    <x-application-logo-oscuro class="" />
+                    <span class="pt-10 text-white md:text-2xl sm:text-xl">VOCACIÓN, DEDICACIÓN Y
+                        SERVICIO</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="aspect-w-16 aspect-h-8 bg-primary">
+        <div class="flex justify-end">
+            <div class="flex items-center w-1/2 px-10">
+                <div class="w-full px-10 py-5 mt-auto text-center opacity-100 rounded-t-2xl bg-primary">
+                    <x-application-logo-oscuro class="" />
+                    <span class="pt-10 text-white md:text-2xl sm:text-xl">VOCACIÓN, DEDICACIÓN Y
+                        SERVICIO</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--slider-->
     <section class="container mx-auto w-100 md:w-4/5">
         <div class="glider-contain">
-            <div class="glider aspect-w-16 aspect-h-7">
+            <div class="glider aspect-w-16 aspect-h-8">
                 <div class="flex items-center justify-center bg-center bg-no-repeat bg-cover"
                     style="background-image: url('img/baner1.png')">
                     <span class="text-3xl">hola mundo</span>
@@ -109,6 +132,41 @@
                         </div>
                     </div>
                 </div>
+                <div class="relative mt-3">
+                    <div
+                        class="absolute inset-0 transform -skew-y-3 shadow-lg bg-gradient-to-r from-secondary to-primary sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+                    </div>
+                    <div
+                        class="relative overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary">
+                        <div class="md:flex">
+                            <div class="md:flex-shrink-0">
+                                <img class="object-cover w-full h-48 md:w-48" src="\img\1.jpg" alt="">
+                            </div>
+                            <div class="h-48 px-8 py-4">
+                                <a href="#"
+                                    class="text-lg leading-tight capitalize text-primary hover:underline line-clamp-2">
+                                    titulo Publicaciones Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt
+                                    odio illo blanditiis, nam obcaecati tempore! Neque nemo error expedita delectus cum
+                                    omnis, accusamus ab dignissimos consectetur voluptates deserunt est fuga!
+                                </a>
+                                <p class="my-2 text-sm text-gray-500 line-clamp-4">According to a study, it has been
+                                    proven
+                                    that there is a tight
+                                    bond between cats and humans.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, molestiae at
+                                    assumenda,
+                                    velit possimus, dicta architecto rerum pariatur a praesentium quasi. Doloremque
+                                    necessitatibus esse voluptatibus. A sit totam natus nihil?
+                                </p>
+                                <a href="#" class="text-sm leading-tight text-primary">
+                                    Leer más...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="flex justify-end w-1/3">
