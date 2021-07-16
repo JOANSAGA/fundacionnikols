@@ -1,6 +1,8 @@
 <x-website-layout>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0"
+        nonce="8rV5K7NO"></script>
     <!--slider-->
-    <section class="container mx-auto w-100 md:w-4/5">
+    <section class="container mx-auto w-100 md:w-4/5" data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="glider-contain">
             <div class="glider aspect-w-16 aspect-h-7">
                 <div class="flex items-center justify-center bg-center bg-no-repeat bg-cover"
@@ -25,14 +27,15 @@
         </div>
     </section>
     <!--resumen publicaciones-->
-    <section class="container flex justify-between w-4/5 pt-6 mx-auto">
+    <section class="container flex justify-between w-4/5 pt-6 mx-auto" data-aos="fade-up" data-aos-duration="1000">
         <div class="w-2/3">
             <div>
                 <span class="text-xl font-bold text-primary h-1/2">Publicaciones recientes:</span>
             </div>
             <div class="">
                 <!-- component -->
-                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary">
+                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
                             <img class="object-cover w-full h-48 md:w-48" src="\img\1.jpg" alt="">
@@ -58,7 +61,8 @@
                     </div>
                 </div>
                 <!-- component -->
-                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary">
+                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
                             <img class="object-cover w-full h-48 md:w-48" src="\img\1.jpg" alt="">
@@ -84,7 +88,8 @@
                     </div>
                 </div>
                 <!-- component -->
-                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary">
+                <div class="mt-3 overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
                     <div class="md:flex">
                         <div class="md:flex-shrink-0">
                             <img class="object-cover w-full h-48 md:w-48" src="\img\1.jpg" alt="">
@@ -111,7 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-end w-1/3">
+        <div class="flex justify-end w-1/3" data-aos="fade-left" data-aos-delay="100" id="fb-root">
             <div class="fb-page" data-href="https://www.facebook.com/fundacionnikols" data-tabs="timeline, about"
                 data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
                 data-hide-cover="false" data-show-facepile="true">
@@ -162,27 +167,6 @@
             </div>
         </div>
     </section>
-    <!--redes-->
-    <section class="container w-4/5 pt-6 mx-auto" id="redes">
-        <div class="flex items-center justify-center w-full pb-6">
-            <span class="font-bold uppercase text-primary">Nuestras redes sociales</span>
-        </div>
-        <div class="flex justify-between px-6">
-            <div class="mx-auto"><img src="\img\logosRedes\facebook.svg" alt="enlace a nuestro facebook" width="100%">
-            </div>
-            <div class="mx-auto"><img src="\img\logosRedes\instagram.svg" alt="enlace a nuestro instagram" width="100%">
-            </div>
-            <div class="mx-auto"><img src="\img\logosRedes\twitter.svg" alt="enlace a nuestro twitter" width="100%">
-            </div>
-            <div class="mx-auto"><img src="\img\logosRedes\tik_tok.svg" alt="enlace a nuestro tik tok" width="100%">
-            </div>
-            <div class="mx-auto"><img src="\img\logosRedes\whatsapp.svg" alt="enlace a nuestro whatsapp" width="100%">
-            </div>
-        </div>
-    </section>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0"
-        nonce="8rV5K7NO"></script>
     <script src="{{ asset('js/glider.js') }}"></script>
     <script src="{{ asset('js/carousel.js') }}"></script>
 </x-website-layout>
