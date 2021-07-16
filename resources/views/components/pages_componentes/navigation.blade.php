@@ -1,5 +1,4 @@
-<div
-    class="fixed top-0 z-40 flex-wrap w-full shadow select-none overflow-ellipsis backdrop-filter backdrop-blur-sm">
+<div class="sticky top-0 z-40 flex-wrap w-full shadow select-none overflow-ellipsis">
     <div x-data="{ open: false }" class="container p-2 mx-auto">
         <div class="flex flex-row items-center justify-between w-full md:hidden">
             <div class="w-28 md:hidden">
