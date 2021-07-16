@@ -26,8 +26,86 @@
             <div role="tablist" class="dots"></div>
         </div>
     </section>
+    <section class="container w-full pt-6 mx-auto md:w-4/5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flex flex-wrap justify-between">
+            <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <div class="flex justify-center pb-3">
+                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">Eventos</span>
+                </div>
+                <div class="overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="md:flex">
+                        <div class="md:flex-shrink-0">
+                            <img class="object-cover w-full h-24 md:w-24" src="\img\1.jpg" alt="">
+                        </div>
+                        <div class="h-48 px-8 py-4">
+                            <a href="#"
+                                class="text-lg leading-tight capitalize text-primary hover:underline line-clamp-2">
+                                titulo Publicaciones Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                odio illo blanditiis, nam obcaecati tempore! Neque nemo error expedita delectus cum
+                                omnis, accusamus ab dignissimos consectetur voluptates deserunt est fuga!
+                            </a>
+                            <p class="my-2 text-sm text-gray-500 line-clamp-4">According to a study, it has been proven
+                                that there is a tight
+                                bond between cats and humans.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, molestiae at assumenda,
+                                velit possimus, dicta architecto rerum pariatur a praesentium quasi. Doloremque
+                                necessitatibus esse voluptatibus. A sit totam natus nihil?
+                            </p>
+                            <a href="#" class="text-sm leading-tight text-primary">
+                                Leer más...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                <div class="flex justify-center pb-3">
+                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">noticias</span>
+                </div>
+
+                <div class="overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
+                    data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="md:flex">
+                        <div class="md:flex-shrink-0">
+                            <img class="object-cover w-full h-48 md:w-48" src="\img\1.jpg" alt="">
+                        </div>
+                        <div class="h-48 px-8 py-4">
+                            <a href="#"
+                                class="text-lg leading-tight capitalize text-primary hover:underline line-clamp-2">
+                                titulo Publicaciones Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                odio illo blanditiis, nam obcaecati tempore! Neque nemo error expedita delectus cum
+                                omnis, accusamus ab dignissimos consectetur voluptates deserunt est fuga!
+                            </a>
+                            <p class="my-2 text-sm text-gray-500 line-clamp-4">According to a study, it has been proven
+                                that there is a tight
+                                bond between cats and humans.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, molestiae at assumenda,
+                                velit possimus, dicta architecto rerum pariatur a praesentium quasi. Doloremque
+                                necessitatibus esse voluptatibus. A sit totam natus nihil?
+                            </p>
+                            <a href="#" class="text-sm leading-tight text-primary">
+                                Leer más...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <div class="flex justify-center pb-3">
+                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">accesos directos</span>
+                </div>
+
+                <div class="bg-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, quidem
+                    consectetur quo blanditiis,
+                    illo et fuga reiciendis incidunt error ipsam ullam ea illum eum similique aspernatur animi rem
+                    debitis quia.</div>
+            </div>
+        </div>
+    </section>
     <!--resumen publicaciones-->
-    <section class="container flex justify-between w-4/5 pt-6 mx-auto" data-aos="fade-up" data-aos-duration="1000">
+    <section class="container {{-- flex --}} justify-between hidden w-4/5 pt-6 mx-auto" data-aos="fade-up"
+        data-aos-duration="1000">
         <div class="w-2/3">
             <div>
                 <span class="text-xl font-bold text-primary h-1/2">Publicaciones recientes:</span>
@@ -125,7 +203,7 @@
     </section>
 
     <!--recuadros-->
-    <section class="container w-4/5 pt-6 mx-auto">
+    <section class="container hidden w-4/5 pt-6 mx-auto">
         <div class="relative">
             <div class="absolute top-0 left-0 circulos-esquina-sup"></div>
             <div class="absolute bottom-0 right-0 circulos-esquina-inf"></div>

@@ -67,7 +67,7 @@
         <x-pages_componentes.footer />
     </footer>
     <div class="container w-full mx-auto md:w-4/5">
-        <div class="fixed z-50 flex items-center justify-center bottom-5">
+        <div class="fixed z-50 flex items-center justify-center bottom-5 animate-bounce">
             <div class="flex items-center justify-center w-16 h-16 overflow-hidden rounded-full">
                 <a href="http://" target="_blank">
                     <img src="{{ asset('\img\logosRedes\whatsapp.svg') }}" class="w-16"
