@@ -29,8 +29,25 @@
     <section class="container w-full pt-6 mx-auto md:w-4/5" data-aos="fade-up" data-aos-duration="1000">
         <div class="flex flex-wrap justify-between">
             <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                <div class="flex justify-center pb-3">
-                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">Eventos</span>
+                <style>
+                    .flecha {
+                        position: relative;
+                    }
+
+                    .flecha::after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        bottom: -2rem;
+                        border-top: 1rem solid;
+                        border-bottom: 1rem solid transparent;
+                        border-left: 1rem solid transparent;
+                        border-right: 1rem solid transparent;
+                        right: calc(50% - 1rem);
+                    }
+                </style>
+                <div class="w-full py-2 mb-6 text-center rounded-md flecha bg-secondary text-secondary">
+                    <span class="text-lg font-bold capitalize text-primary">Eventos</span>
                 </div>
                 <div class="overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
                     data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
@@ -60,8 +77,8 @@
                 </div>
             </div>
             <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-                <div class="flex justify-center pb-3">
-                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">noticias</span>
+                <div class="w-full py-2 mb-6 text-center rounded-md flecha bg-secondary text-secondary">
+                    <span class="text-lg font-bold capitalize text-primary">noticias</span>
                 </div>
 
                 <div class="overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl border-primary"
@@ -92,8 +109,9 @@
                 </div>
             </div>
             <div class="w-full p-3 mx-auto md:w-1/3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-                <div class="flex justify-center pb-3">
-                    <span class="px-3 py-2 capitalize bg-opacity-75 rounded-full bg-secondary">accesos directos</span>
+                <div class="w-full py-2 mb-6 text-center rounded-md flecha bg-secondary text-secondary">
+                    <span class="text-lg font-bold capitalize text-primary">accesos
+                        directos</span>
                 </div>
 
                 <div class="bg-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, quidem

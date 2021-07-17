@@ -45,7 +45,7 @@
                     </div>
                     <div>
                         <a href="https://www.tiktok.com/@fundacionnikols" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\tik_tok.svg') }}" class="w-7"
+                            <img src="{{ asset('\img\logosRedes\tiktok.svg') }}" class="w-7"
                                 alt="enlace a nuestro tik tok">
                         </a>
                     </div>
