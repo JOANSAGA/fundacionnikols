@@ -12,7 +12,7 @@ var slider = new Glider(document.querySelector('.glider'), {
     scrollLock: true
 });
 
-//slideAutoPaly(slider, '.glider');
+slideAutoPaly(slider, '.glider');
 
 function slideAutoPaly(glider, selector, delay = 3000, repeat = true) {
     let autoplay = null;

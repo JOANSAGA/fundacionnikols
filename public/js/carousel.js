@@ -14,7 +14,8 @@ var slider = new Glider(document.querySelector('.glider'), {
   },
   rewind: true,
   scrollLock: true
-}); //slideAutoPaly(slider, '.glider');
+});
+slideAutoPaly(slider, '.glider');
 
 function slideAutoPaly(glider, selector) {
   var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3000;
