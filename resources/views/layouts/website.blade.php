@@ -13,8 +13,7 @@
 
 <body class="flex flex-col h-screen antialiased">
     <header class="select-none bg-primary">
-        <div
-            class="container flex flex-wrap items-center justify-center w-full py-2 mx-auto md:flex-nowrap md:justify-between md:w-4/5">
+        <div class="container flex flex-wrap items-center justify-center w-full py-2 mx-auto md:flex-nowrap md:justify-between md:w-4/5">
             <div class="w-56">
                 <a href="{{ route('inicio') }}" title="inicio">
                     <x-application-logo-oscuro />
@@ -27,32 +26,27 @@
                 <div class="flex justify-between w-100">
                     <div>
                         <a href="https://www.facebook.com/fundacionnikols" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\facebook.svg') }}" class="w-7"
-                                alt="enlace a nuestro facebook">
+                            <img src="{{ asset('\img\logosRedes\facebook.svg') }}" class="w-7" alt="enlace a nuestro facebook">
                         </a>
                     </div>
                     <div>
                         <a href="https://www.instagram.com/fundacionnikols/" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\instagram.svg') }}" class="w-7"
-                                alt="enlace a nuestro instagram">
+                            <img src="{{ asset('\img\logosRedes\instagram.svg') }}" class="w-7" alt="enlace a nuestro instagram">
                         </a>
                     </div>
                     <div>
                         <a href="https://twitter.com/FundNIKOLS" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\twitter.svg') }}" class="w-7"
-                                alt="enlace a nuestro twitter">
+                            <img src="{{ asset('\img\logosRedes\twitter.svg') }}" class="w-7" alt="enlace a nuestro twitter">
                         </a>
                     </div>
                     <div>
                         <a href="https://www.tiktok.com/@fundacionnikols" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\tiktok.svg') }}" class="w-7"
-                                alt="enlace a nuestro tik tok">
+                            <img src="{{ asset('\img\logosRedes\tiktok.svg') }}" class="w-7" alt="enlace a nuestro tik tok">
                         </a>
                     </div>
                     <div>
                         <a href="https://www.youtube.com/channel/UCu7FJ0U863ARVSdx9zScdRQ" target="_blank">
-                            <img src="{{ asset('\img\logosRedes\youtube.svg') }}" class="w-7"
-                                alt="enlace a nuestro tik tok">
+                            <img src="{{ asset('\img\logosRedes\youtube.svg') }}" class="w-7" alt="enlace a nuestro tik tok">
                         </a>
                     </div>
                 </div>
@@ -70,8 +64,7 @@
         <div class="fixed z-50 flex items-center justify-center bottom-5 animate-bounce">
             <div class="flex items-center justify-center w-16 h-16 overflow-hidden rounded-full">
                 <a href="http://" target="_blank">
-                    <img src="{{ asset('\img\logosRedes\whatsapp.svg') }}" class="w-16"
-                        alt="enlace a nuestro whatsapp">
+                    <img src="{{ asset('\img\logosRedes\whatsapp.svg') }}" class="w-16" alt="enlace a nuestro whatsapp">
                 </a>
             </div>
             <div class="p-2 ml-3 bg-white text-primary rounded-xl">
