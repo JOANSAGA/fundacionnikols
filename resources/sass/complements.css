@@ -16,3 +16,19 @@
     background-position: right bottom;
     z-index: -1;
 }
+
+.flecha {
+    position: relative;
+}
+
+.flecha::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2rem;
+    border-top: 1rem solid;
+    border-bottom: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    right: calc(50% - 1rem);
+}
