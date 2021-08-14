@@ -67,7 +67,7 @@
                     <img src="{{ asset('\img\logosRedes\whatsapp.svg') }}" class="w-16" alt="enlace a nuestro whatsapp">
                 </a>
             </div>
-            <div class="p-2 ml-3 bg-white text-primary rounded-xl">
+            <div class="p-2 ml-3 bg-primary bg-opacity-75 text-white rounded-xl">
                 <span>Escribenos!!!</span>
             </div>
         </div>

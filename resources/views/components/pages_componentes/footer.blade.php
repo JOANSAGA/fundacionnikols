@@ -6,15 +6,24 @@
             </div>
         </div>
         <div class="flex flex-wrap justify-between w-full px-6 text-sm">
-            <div class="flex flex-col">
-                <span class="w-full font-bold text-center uppercase">Quiénes somos</span>
-                <span> esto es un enlace</span>
-                <span>enlace</span>
+            <div class="flex flex-col capitalize">
+                <span class="w-full font-bold text-center uppercase">Nosotros</span>
+                <a class="hover:underline" href="{{ route('nosotros') }}#mision_vision">mision</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#mision_vision">vision</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#fuerza_valores">fuerza de la entidad</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#fuerza_valores">valores</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#trabajo_poblacions ">lineas de trabajo</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#trabajo_poblacions ">poblacion que
+                    atendemos</a>
             </div>
             <div class="flex flex-col">
                 <span class="w-full font-bold text-center uppercase">Servicios</span>
-                <span> esto es un enlace</span>
-                <span>enlace</span>
+                <a class="hover:underline" href="{{ route('nosotros') }}#mision_vision">Asesoría legal</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#mision_vision">Entrega de alimentos</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#fuerza_valores">Visitas domiciliarias</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#fuerza_valores">Refuerzo escolar</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#trabajo_poblacions ">Capacitaciones</a>
+                <a class="hover:underline" href="{{ route('nosotros') }}#trabajo_poblacions ">Asistencia social</a>
             </div>
             <div class="flex flex-col">
                 <span class="w-full font-bold text-center uppercase">Publicaciones</span>

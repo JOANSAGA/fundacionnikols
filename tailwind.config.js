@@ -14,6 +14,7 @@ module.exports = {
                 secondary: '#FCEE60',
                 whatsapp: '#00BFA5',
                 resaltar: '#FAB545',
+                morado: '#9731B0',
             },
             fontFamily: {
                 'sans': ['"Century Gothic"']
@@ -27,7 +28,7 @@ module.exports = {
         },
     },
     plugins: [require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio')
+        require('@tailwindcss/line-clamp'),
+        require('@tailwindcss/aspect-ratio')
     ],
 };
