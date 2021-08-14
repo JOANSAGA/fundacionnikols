@@ -1,6 +1,7 @@
 <x-website-layout>
     <section class="container flex flex-col justify-center w-4/5 pt-6 mx-auto text-primary">
         <div class="px-32">
+            <x-application-logo-claro />
             <div class="flex justify-center text-xl">
                 <span class="font-bold">
                     CONOZCA MÁS DE NOSOTROS
@@ -19,14 +20,14 @@
         </div>
     </section>
     <!-- mision, vision -->
-    <section class="w-full bg-secondary" id="mision_vision">
-        <div class="flex justify-between w-4/5 mx-auto mt-6 text-primary">
+    <section class="w-full bg-primary" id="mision_vision">
+        <div class="flex justify-between w-4/5 mx-auto mt-6">
             <div class="w-1/2 py-3">
                 <div>
                     <img src="img/mision.jpeg" class="border-2 border-primary rounded-3xl">
                 </div>
             </div>
-            <div class="flex flex-row items-center w-1/2 px-6 ">
+            <div class="flex flex-row items-center w-1/2 px-6 text-white">
                 <div>
                     <div>
                         <div class="flex justify-center text-xl">
@@ -119,14 +120,14 @@
         </div>
     </section>
     <!-- mision, vision -->
-    <section class="w-full bg-primary" id="trabajo_poblacion">
-        <div class="flex justify-between w-4/5 mx-auto mt-6 text-primary">
+    <section class="w-full bg-secondary" id="trabajo_poblacion">
+        <div class="flex justify-between w-4/5 mx-auto mt-6">
             <div class="w-1/2 py-3">
                 <div>
                     <img src="img/mision.jpeg" class="border-2 border-primary rounded-3xl">
                 </div>
             </div>
-            <div class="flex flex-row items-center w-1/2 px-6 text-white">
+            <div class="flex flex-row items-center w-1/2 px-6 text-primary">
                 <div>
                     <div class="flex justify-center text-xl">
                         <span class="font-bold">
