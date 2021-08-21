@@ -2,11 +2,12 @@
     <section class="container flex flex-col justify-center w-4/5 pt-6 mx-auto text-primary">
         <div class="px-32 flex flex-col gap-4">
             <div>
-                <div class="flex justify-center text-xl">
+                <div class="flex justify-center text-xl pb-3">
                     <span class="font-bold">
                         CONVENIOS INTERINSTITUCIONALES
                     </span>
                 </div>
+                <img src="{{ asset('/img/servicios/banerServicios.png') }}" alt="" srcset="">
                 <div class="pt-4 text-lg text-justify">
                     <p>
                         Con la finalidad de fortalecer su accionar y

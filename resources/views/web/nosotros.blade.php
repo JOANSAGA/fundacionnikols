@@ -158,20 +158,20 @@
                     </div>
                     <div class="pt-4 text-lg text-justify capitalize">
                         <ul>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">Niños - Niñas
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">Niños - Niñas
                                     - adolescentes</span>
                             </li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">jóvenes</span>
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">jóvenes</span>
                             </li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">personas
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">personas
                                     adultas mayores</span></li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">personas con
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">personas con
                                     discapacidad</span></li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">mujeres</span>
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">mujeres</span>
                             </li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">personas en
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">personas en
                                     condición de movilidad humana</span></li>
-                            <li><i class="fas fa-circle text-secondary"></i> <span class="ml-3 font-bold">personas en
+                            <li><i class="fas fa-circle text-white"></i> <span class="ml-3 font-bold">personas en
                                     situación de vulnerabilidad
                                     y pobreza</span></li>
                         </ul>
