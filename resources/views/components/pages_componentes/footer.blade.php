@@ -26,11 +26,6 @@
                 <a class="hover:underline" href="{{ route('nosotros') }}#trabajo_poblacions ">Asistencia social</a>
             </div>
             <div class="flex flex-col">
-                <span class="w-full font-bold text-center uppercase">Publicaciones</span>
-                <span> esto es un enlace</span>
-                <span>enlace</span>
-            </div>
-            <div class="flex flex-col">
                 <span class="w-full font-bold text-center uppercase">Donaciones</span>
                 <span> esto es un enlace</span>
                 <span>enlace</span>
